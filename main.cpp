@@ -68,6 +68,15 @@ public:
 
     void deleteNode(int index) {
        //TODO:Write the function to delete at the given index. Reuse the pre-written functions for edge cases. Account for missing index.
+        if (index < 0 || index >= length){
+            return;
+        }
+        if (index == 0){
+            delfirst();
+            return;
+        }
+        temp = head
+        
     }
 
    void insert(int index, T *value) {
@@ -76,6 +85,7 @@ public:
 
    void reverselist(){
         //TODO:Write a function to reverse the list using the logic from the slide.
+
     }
 
     void print() {
